@@ -1,23 +1,51 @@
 {
-  "name": "my-app",
+  "name": "next-ssg-blog",
   "version": "0.1.0",
+  "description": "Source code of https://toshi.click",
   "private": true,
+  "main": "index.js",
   "scripts": {
+    "start": "next-remote-watch ./src",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "export": "next export",
+    "download": "cd public && fetch-github-release arcatdmz arcatdmz.github.io",
+    "prettify": "prettier --write ./{components,lib,pages}/**/*.{ts,tsx}",
+    "posts": "yarn posts:prettify && yarn posts:summarize",
+    "posts:prettify": "prettier --write ./src/**/*.{md,mdx}",
+    "posts:summarize": "node scripts/add-summary.mjs"
   },
+  "keywords": [],
+  "author": "toshi",
+  "license": "MIT",
   "dependencies": {
-    "next": "12.1.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "@mapbox/rehype-prism": "^0.6.0",
+    "@mdx-js/loader": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "@next/mdx": "^11.1.2",
+    "gray-matter": "^4.0.2",
+    "next": "^11.1.2",
+    "next-mdx-remote": "^3.0.5",
+    "next-seo": "^4.22.0",
+    "preact": "^10.5.13",
+    "prism-themes": "^1.6.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-share": "^4.4.0",
+    "remark-autolink-headings": "^6.0.1",
+    "remark-code-titles": "^0.1.1",
+    "remark-footnotes": "^3.0.0",
+    "remark-oembed": "^1.2.1",
+    "remark-slug": "^6.0.0",
+    "semantic-ui-react": "^2.0.3"
   },
   "devDependencies": {
-    "@types/node": "17.0.21",
-    "@types/react": "17.0.39",
-    "eslint": "8.9.0",
-    "eslint-config-next": "12.1.0",
-    "typescript": "4.5.5"
+    "@terascope/fetch-github-release": "^0.7.6",
+    "@types/node": "^14.14.35",
+    "@types/react": "^17.0.3",
+    "html-parse-stringify": "^2.0.3",
+    "next-remote-watch": "git+https://github.com/hashicorp/next-remote-watch.git",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.3"
   }
 }
