@@ -4,8 +4,11 @@ build:
 	@docker-compose build
 
 create:
-	@docker-compose run --rm next yarn install
 # 	@docker run --rm -it -v $PWD:/app -w /app node:16 yarn create next-app --typescript
+	@sudo chown -R toshi:toshi ./
+	@docker-compose run --rm next yarn install
+	@docker-compose run --rm next yarn build
+	@docker-compose run --rm next yarn export
 
 up:
 	@docker-compose up -d
