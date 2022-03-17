@@ -1,0 +1,123 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hoge</title>
+    <link>https://toshi.click/</link>
+    <description>いろいろ書くブログです。</description>
+    <language>ja-JP</language>
+    <managingEditor>toshi@toshi.click (阿部 俊幸)</managingEditor>
+    <webMaster>toshi@toshi.click (阿部 俊幸)</webMaster>
+    <lastBuildDate>Fri, 26 Mar 2021 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://toshi.click/index.xml" rel="self" type="application/rss+xml"/>
+    
+  <item>
+    <guid>https://toshi.click/posts/windows-docker-flutter-for-web-develop-create/</guid>
+    <title>WindowsのDockerでFlutter for Web（開発環境構築）</title>
+    <link>https://toshi.click/posts/windows-docker-flutter-for-web-develop-create/</link>
+    <description>WindowsのDockerでFlutter for Web（開発環境構築）</description>
+    <pubDate>Fri, 26 Mar 2021 00:00:00 GMT</pubDate>
+    <author>toshi@toshi.click (阿部 俊幸)</author>
+    <category>Docker</category><category>Windows</category><category>開発環境</category>
+  </item>
+
+  <item>
+    <guid>https://toshi.click/posts/win_wsl_docker/</guid>
+    <title>Windows10 + WSL(Ubuntu18.04) + Docker Desktopで開発環境構築</title>
+    <link>https://toshi.click/posts/win_wsl_docker/</link>
+    <description>Windows10 + WSL(Ubuntu18.04) + Docker Desktopで開発環境構築</description>
+    <pubDate>Tue, 09 Jul 2019 00:00:00 GMT</pubDate>
+    <author>toshi@toshi.click (阿部 俊幸)</author>
+    <category>Docker</category><category>Linux</category><category>Windows</category><category>WSL</category><category>インフラ</category><category>開発環境</category>
+  </item>
+
+  <item>
+    <guid>https://toshi.click/posts/docker_desktop/</guid>
+    <title>Docker Desktop導入手順</title>
+    <link>https://toshi.click/posts/docker_desktop/</link>
+    <description>Docker Desktop導入手順</description>
+    <pubDate>Mon, 08 Jul 2019 00:00:00 GMT</pubDate>
+    <author>toshi@toshi.click (阿部 俊幸)</author>
+    <category>Docker</category><category>Mac</category><category>Windows</category><category>インフラ</category><category>開発環境</category>
+  </item>
+
+  <item>
+    <guid>https://toshi.click/posts/fluentd_secure/</guid>
+    <title>Fluentd間でログを自己証明書で暗号化して送る</title>
+    <link>https://toshi.click/posts/fluentd_secure/</link>
+    <description>Fluentd間でログを自己証明書で暗号化して送る</description>
+    <pubDate>Wed, 26 Jun 2019 00:00:00 GMT</pubDate>
+    <author>toshi@toshi.click (阿部 俊幸)</author>
+    <category>Fluentd</category><category>インフラ</category><category>セキュリティ</category>
+  </item>
+
+  <item>
+    <guid>https://toshi.click/posts/wsl_setup/</guid>
+    <title>WSLの導入手順</title>
+    <link>https://toshi.click/posts/wsl_setup/</link>
+    <description>WSLの導入手順</description>
+    <pubDate>Tue, 04 Jun 2019 00:00:00 GMT</pubDate>
+    <author>toshi@toshi.click (阿部 俊幸)</author>
+    <category>Linux</category><category>Windows</category><category>インフラ</category><category>開発環境</category>
+  </item>
+
+  <item>
+    <guid>https://toshi.click/posts/subjectnews001/</guid>
+    <title>#it業界クソ現場オブザイヤー2018厳選集</title>
+    <link>https://toshi.click/posts/subjectnews001/</link>
+    <description>it業界クソ現場オブザイヤー2018厳選集</description>
+    <pubDate>Tue, 20 Nov 2018 00:00:00 GMT</pubDate>
+    <author>toshi@toshi.click (阿部 俊幸)</author>
+    <category>Twitter</category><category>ツイッター</category><category>トレンド</category><category>ハッシュタグ</category>
+  </item>
+
+  <item>
+    <guid>https://toshi.click/posts/development-0002/</guid>
+    <title>React Nativeことはじめ</title>
+    <link>https://toshi.click/posts/development-0002/</link>
+    <description>React Nativeことはじめ</description>
+    <pubDate>Fri, 13 Apr 2018 00:00:00 GMT</pubDate>
+    <author>toshi@toshi.click (阿部 俊幸)</author>
+    <category>Android</category><category>iOS</category><category>JavaScript</category><category>プログラミング</category><category>開発環境</category>
+  </item>
+
+  <item>
+    <guid>https://toshi.click/posts/server-0001/</guid>
+    <title>サーバへのSSHログイン契機でメール通知</title>
+    <link>https://toshi.click/posts/server-0001/</link>
+    <description>サーバへのSSHログイン契機でメール通知</description>
+    <pubDate>Sat, 25 Nov 2017 00:00:00 GMT</pubDate>
+    <author>toshi@toshi.click (阿部 俊幸)</author>
+    <category>Linux</category><category>インフラ</category><category>セキュリティ</category>
+  </item>
+
+  <item>
+    <guid>https://toshi.click/posts/aws-0001/</guid>
+    <title>LambdaでAWSの料金を毎日Slackに通知した結果課金されてしまった</title>
+    <link>https://toshi.click/posts/aws-0001/</link>
+    <description>LambdaでAWSの料金を毎日Slackに通知した結果課金されてしまった</description>
+    <pubDate>Mon, 04 Sep 2017 00:00:00 GMT</pubDate>
+    <author>toshi@toshi.click (阿部 俊幸)</author>
+    <category>AWS</category>
+  </item>
+
+  <item>
+    <guid>https://toshi.click/posts/workaround-0001/</guid>
+    <title>CentOS 7.3でyum install nodejsが失敗するので回避する</title>
+    <link>https://toshi.click/posts/workaround-0001/</link>
+    <description>CentOS 7.3でyum install nodejsが失敗するので回避する</description>
+    <pubDate>Thu, 24 Aug 2017 00:00:00 GMT</pubDate>
+    <author>toshi@toshi.click (阿部 俊幸)</author>
+    <category>JavaScript</category><category>Linux</category><category>インフラ</category>
+  </item>
+
+  <item>
+    <guid>https://toshi.click/posts/development-0001/</guid>
+    <title>個人開発で使っている開発ツールやエディタ紹介</title>
+    <link>https://toshi.click/posts/development-0001/</link>
+    <description>個人開発で使っている開発ツールやエディタ紹介</description>
+    <pubDate>Thu, 10 Aug 2017 00:00:00 GMT</pubDate>
+    <author>toshi@toshi.click (阿部 俊幸)</author>
+    <category>Windows</category><category>開発環境</category>
+  </item>
+
+  </channel>
+</rss>

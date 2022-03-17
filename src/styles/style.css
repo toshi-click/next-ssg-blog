@@ -1,0 +1,238 @@
+/* body */
+
+body {
+  background: #1b1c1d !important;
+}
+
+.pushable:not(body) {
+  transform: none;
+}
+
+.pushable:not(body) > .ui.sidebar,
+.pushable:not(body) > .fixed,
+.pushable:not(body) > .pusher:after {
+  position: fixed;
+}
+
+.pushable:not(body),
+.pushable:not(body) > .pusher {
+  min-height: 100vh;
+}
+
+.pushable:not(body) > .pusher > main {
+  background: #fff;
+  padding-bottom: 1.5rem;
+}
+
+/* footer */
+
+.pushable:not(body) > .pusher > footer {
+  margin-top: 0;
+  padding: 1.5rem 0 5rem 0;
+}
+
+.pushable:not(body) > .pusher > footer .ui.horizontal.list > .item {
+  line-height: 1.2em !important;
+}
+
+/* figures */
+
+article.post-item a.internal-link {
+  display: block;
+  position: relative;
+  top: -4.4rem;
+  visibility: hidden;
+}
+
+article.post-item p > a > img,
+article.post-item p > img {
+  border: 1px solid #eee;
+  padding: 0.5em;
+}
+
+article.post-item figure {
+  border: 1px solid #eee;
+  margin: 0 0 1em 0;
+  padding: 0.5em;
+}
+
+article.post-item figure.fixed-size img {
+  margin: auto;
+  display: inline-block;
+}
+article.post-item figure.small.fixed-size img {
+  width: 180px !important;
+}
+
+article.post-item figure:last-child {
+  margin-bottom: 0;
+}
+
+article.post-item figure > figcaption {
+  margin: 0.5em -0.5em -0.5em -0.5em;
+}
+
+article.post-item figure.left,
+article.post-item figure.right {
+  max-width: 320px;
+}
+
+article.post-item figure.small.left,
+article.post-item figure.small.right {
+  max-width: 180px;
+}
+
+article.post-item figure.left {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+article.post-item figure.right {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+article.post-item figure.center img {
+  max-width: max-content !important;
+  margin: auto;
+}
+
+@media only screen and (max-width: 767.98px) {
+  article.post-item figure.small.fixed-size img,
+  article.post-item figure.fixed-size img {
+    width: 100% !important;
+  }
+  article.post-item figure.small.left,
+  article.post-item figure.small.right {
+    max-width: initial;
+  }
+
+  article.post-item figure.left,
+  article.post-item figure.right,
+  article.post-item figure.center {
+    margin: 0 0 1em 0;
+    float: none;
+    max-width: none;
+  }
+
+  article.post-item figure:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* caption */
+
+article.post-item figure > figcaption,
+.remark-oembed-inline + p.caption,
+.remark-code-title {
+  padding: 0.3em 0.5em;
+  background: #eee;
+}
+
+.remark-code-title {
+  font-size: smaller;
+}
+
+.remark-code-title + pre {
+  margin-top: 0 !important;
+}
+
+/* embedded content */
+
+article.post-item .embed {
+  background: #f6f6f6;
+  border: 1px solid #eee;
+  margin: 0 0 1em 0;
+  padding: 0.5em;
+  overflow-y: auto;
+  max-height: 120vw;
+}
+
+article.post-item .embed > iframe {
+  background: #fff;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+.remark-oembed-inline {
+  padding: 0.5rem;
+  background: #f6f6f6;
+  border: 1px solid #eee;
+  margin-bottom: 1em;
+}
+
+.remark-oembed-inline + p.caption {
+  margin-top: -1em !important;
+  border-top: none !important;
+}
+
+.remark-oembed-inline.remark-oembed-you-tube {
+  padding: 0.5rem;
+}
+
+.remark-oembed-inline.remark-oembed-you-tube > iframe {
+  width: 100%;
+  min-height: min(50vw, 420px);
+  display: block;
+  margin: auto !important;
+}
+
+.remark-oembed-inline.remark-oembed-twitter > * {
+  margin: 0 auto !important;
+}
+
+/* list of posts */
+
+@media only screen and (max-width: 767.98px) {
+  article.list-item > .ui.stackable.grid {
+    margin-left: -1rem !important;
+    margin-right: -1rem !important;
+  }
+}
+
+/* post */
+
+article.post-item > header {
+  margin-top: 1.5em;
+  margin-bottom: 0.7em;
+}
+article.post-item > .top.nav.menu {
+  margin-top: -0.5rem;
+  margin-bottom: -0.7rem;
+}
+article.post-item > .top.nav.menu .item:hover {
+  background: none;
+}
+article.post-item > .top.nav.menu .item:hover i.icon {
+  background: rgba(0, 0, 0, 0.05);
+}
+article.post-item .nav .item {
+  padding: 0 !important;
+}
+article.post-item .share-buttons .item {
+  line-height: 0;
+}
+article.post-item .bottom.nav .share-buttons {
+  min-height: initial;
+  padding-left: 0.333333em;
+  border-left: 1px solid rgba(34, 36, 38, 0.15);
+}
+article.post-item .bottom.nav .share-buttons .item:last-child {
+  margin-right: 0;
+}
+article.post-item .bottom.nav .links {
+  clear: both;
+}
+article.post-item > .meta > .item {
+  line-height: 1.2em !important;
+}
+
+article.post-item > footer > .menu > .item {
+  max-width: 35%;
+}
+@media only screen and (max-width: 767.98px) {
+  article.post-item > footer > .menu > .item {
+    max-width: initial;
+  }
+}
