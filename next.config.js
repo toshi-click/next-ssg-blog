@@ -1,32 +1,49 @@
-module.exports = {
-  pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"],
-  trailingSlash: true,
-  experimental: {
-    modern: true
+/** @type {import('next/dist/next-server/server/config-shared').NextConfig} */
+
+const withTM = require("next-transpile-modules")(["react-children-utilities"]);
+const SpeedMeasurePlugin = require("speed-measure-webpack-plugin");
+const BundleAnalyzerPlugin = require("webpack-bundle-analyzer");
+
+if (process.env.NODE_ENV === "development") {
+  require("dotenv").config();
+}
+
+const config = {
+  target: "serverless",
+  exportPathMap: async () => {
+    return {
+      "/": { page: "/" },
+      "/blog": { page: "/blog" },
+      "/book": { page: "/book" },
+    };
   },
-  webpack: (config, { dev, isServer }) => {
+  trailingSlash: true,
+  pageExtensions: ["tsx"],
+  webpack: (config, { isServer }) => {
+    // Fixes npm packages that depend on `fs` module
+    if (!isServer) {
+      config.node = {
+        fs: "empty",
+      };
+    }
+
     config.module.rules.push({
-      test: /\.(png|jpe?g|gif|mp4)$/i,
-      use: [
-        {
-          loader: "file-loader",
-          options: {
-            publicPath: "/_next",
-            name: "static/media/[name].[hash].[ext]"
-          }
-        }
-      ]
+      test: /\.md$/,
+      use: "raw-loader",
     });
 
-    if (!dev && !isServer) {
-      // Replace React with Preact only in client production build
-      Object.assign(config.resolve.alias, {
-        react: "preact/compat",
-        "react-dom/test-utils": "preact/test-utils",
-        "react-dom": "preact/compat"
-      });
+    if (process.env.MEASURE === "true") {
+      config.plugins.push(
+        new BundleAnalyzerPlugin.BundleAnalyzerPlugin({
+          analyzerMode: "static",
+        })
+      );
+
+      return new SpeedMeasurePlugin().wrap(config);
     }
 
     return config;
-  }
+  },
 };
+
+module.exports = withTM(config);

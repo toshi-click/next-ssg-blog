@@ -8,7 +8,6 @@ create:
 	@sudo chown -R toshi:toshi ./
 	@docker-compose run --rm next yarn install
 	@docker-compose run --rm next yarn build
-	@docker-compose run --rm next yarn export
 
 up:
 	@docker-compose up -d
