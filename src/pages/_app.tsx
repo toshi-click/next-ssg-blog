@@ -1,28 +1,29 @@
-import "normalize.css";
+// import "normalize.css";
 
-import React from "react";
+// import React from "react";
 
 import { NextPage } from "next";
-import { DefaultSeo } from "next-seo";
+// import { DefaultSeo } from "next-seo";
 import { AppProps } from "next/app";
 
-import globalStyles from "../../src/styles/globalStyles";
+// import globalStyles from "../../src/styles/globalStyles";
 
 const App: NextPage<AppProps> = ({ Component, pageProps }) => {
   return (
     <>
-      <DefaultSeo
-        twitter={{
-          cardType: "summary",
-          site: "@toshibe_678",
-        }}
-      />
+      {/*<DefaultSeo*/}
+      {/*  twitter={{*/}
+      {/*    cardType: "summary",*/}
+      {/*    site: "@toshibe_678",*/}
+      {/*  }}*/}
+      {/*/>*/}
       <Component {...pageProps} />
-      <style jsx global>
-        {globalStyles}
-      </style>
+      {/*<style jsx global>*/}
+      {/*  {globalStyles}*/}
+      {/*</style>*/}
     </>
   );
 };
 
 export default App;
+
