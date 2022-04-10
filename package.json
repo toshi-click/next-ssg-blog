@@ -8,7 +8,7 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "lint": "eslint 'src/**/*.{ts,tsx}' && prettier --check --ignore-path .gitignore '**/*.{js,ts,tsx,json,md}' && secretlint '**/*' && textlint 'data/**'",
+    "lint": "eslint 'src/**/*.{ts,tsx}' && prettier --check --ignore-path .gitignore '**/*.{js,ts,tsx,json,md}'",
     "lintfix": "eslint --fix 'src/**/*.{ts,tsx}' && prettier --write --ignore-path .gitignore '**/*.{js,ts,tsx,json,md}'",
     "yarn-upgrade": "yarn upgrade-interactive --latest",
     "yarn-deduplicate": "npx yarn-deduplicate yarn.lock"
