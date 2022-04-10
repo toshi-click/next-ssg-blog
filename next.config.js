@@ -6,6 +6,9 @@ const withTM = require("next-transpile-modules")(["react-children-utilities"]);
 
 const config = {
   target: "serverless",
+  eslint: {
+    dirs: ['src'],
+  },
   exportPathMap: async () => {
     return {
       "/": { page: "/" }
