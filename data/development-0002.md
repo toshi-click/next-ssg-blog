@@ -1,13 +1,14 @@
 ---
 title: "React Nativeことはじめ"
 date: "2018-04-13"
+coverImage: ''
+ogImage: ''
 tags: 
   - Android
   - iOS
   - JavaScript
   - プログラミング
   - 開発環境
-summary_generated: React Nativeことはじめ
 ---
 # はじめに
 業務でReact Nativeを使ったスマホアプリ開発をすることになったので、私の作成した開発環境を備忘録的にご紹介します。
@@ -98,7 +99,7 @@ cd [プロジェクト名]
 npm start
 ```
 
-![image_alt](/public/images/development-0002/prompt.png)
+![image_alt](/images/development-0002/prompt.png)
 
 案内が上記のように画面に出ますので、QRコードを撮影するかexp://から始まるアドレスへXpoアプリから接続してください。  
 コマンドプロンプトやコンソールを閉じると切れてしまうので注意！

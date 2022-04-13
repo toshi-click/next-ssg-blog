@@ -17,10 +17,10 @@
     "baseUrl": ".",
     "paths": {
       "@libs/*": [
-        "./libs/*"
+        "./src/libs/*"
       ],
       "@components/*": [
-        "./components/*"
+        "./src/components/*"
       ]
     }
   },

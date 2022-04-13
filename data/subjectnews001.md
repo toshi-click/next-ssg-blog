@@ -1,12 +1,13 @@
 ---
 title: "#it業界クソ現場オブザイヤー2018厳選集"
 date: "2018-11-20"
+coverImage: ''
+ogImage: ''
 tags: 
   - Twitter
   - ツイッター
   - トレンド
   - ハッシュタグ
-summary_generated: it業界クソ現場オブザイヤー2018厳選集
 ---
 https://twitter.com/nekobass9425/status/1064332784506830848
 

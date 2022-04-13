@@ -1,6 +1,8 @@
 ---
 title: "Windows10 + WSL(Ubuntu18.04) + Docker Desktopで開発環境構築"
 date: "2019-07-09"
+coverImage: ''
+ogImage: ''
 tags: 
   - Docker
   - Linux
@@ -8,7 +10,6 @@ tags:
   - WSL
   - インフラ
   - 開発環境
-summary_generated: Windows10 + WSL(Ubuntu18.04) + Docker Desktopで開発環境構築
 ---
 ## TL;DR
 `WSL2`の発表と`Docker Desktop for WSL 2`の発表によってこの記事の手順は20H1のWindowsUpdate後は陳腐化すると思われます。

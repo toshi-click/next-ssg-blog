@@ -1,13 +1,14 @@
 ---
 title: "Docker Desktop導入手順"
 date: "2019-07-08"
+coverImage: ''
+ogImage: ''
 tags: 
   - Docker
   - Mac
   - Windows
   - インフラ
   - 開発環境
-summary_generated: Docker Desktop導入手順
 ---
 ## Docker Desktopとは？
 以前は`Docker For Windows`、`Docker For Mac`と呼ばれていたソフトウェアが2018年9月頃に`Docker Desktop`に統一されました。
@@ -71,21 +72,21 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 1. アカウントを登録
    下記のような画面が表示されますので、`Sign in / Create a Docker ID`でアカウント登録してください
 
-    ![image_alt](/public/images/docker_desktop/docker_desktop_mac1.png)
+    ![image_alt](/images/docker_desktop/docker_desktop_mac1.png)
 1. MacのメニューバーにDockerのアイコンが表示されたら完了です。
 
-    ![image_alt](/public/images/docker_desktop/docker_desktop_mac2.png)
+    ![image_alt](/images/docker_desktop/docker_desktop_mac2.png)
 
 ## Docker Desktopの設定
 
 ### 共有設定(Windowsのみ)
 ホストのディレクトリをコンテナにマウントする際に共有の設定、許可をしていないといけないため設定します。
 
-タスクトレイのクジラアイコン![image_alt](/public/images/docker_desktop/docker_desktop_win_1.jpg)を右クリック＞`Setting`をクリック。
+タスクトレイのクジラアイコン![image_alt](/images/docker_desktop/docker_desktop_win_1.jpg)を右クリック＞`Setting`をクリック。
 
 Settingsウィンドウが表示されるので、Shared Drivesをクリックします。
 
-![image_alt](/public/images/docker_desktop/docker_desktop_win_2.jpg)
+![image_alt](/images/docker_desktop/docker_desktop_win_2.jpg)
 
 共有を許可するドライブにチェックを入れて、Applyをクリックします。
 
@@ -102,10 +103,10 @@ Settingsウィンドウが表示されるので、Shared Drivesをクリック�
     ```
 尚、DockerのShared Drives設定で以下のようなファイルシステム認証画面が出た場合は、ホストPCのユーザ名（ログインアカウント）とパスワードを入力して認証すればＯＫ！
 
-![image_alt](/public/images/docker_desktop/docker_desktop_win_error1.jpg)
+![image_alt](/images/docker_desktop/docker_desktop_win_error1.jpg)
 
 ### Hyper-Vが有効になっていない場合
-![image_alt](/public/images/docker_desktop/docker_desktop_win_error2.jpg)
+![image_alt](/images/docker_desktop/docker_desktop_win_error2.jpg)
 
 上のようなプロンプトが表示されるので、`Hyper-V`を有効化させてください。
 

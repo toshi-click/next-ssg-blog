@@ -1,10 +1,11 @@
 ---
 title: "個人開発で使っている開発ツールやエディタ紹介"
 date: "2017-08-10"
+coverImage: ''
+ogImage: ''
 tags:
   - Windows
   - 開発環境
-summary_generated: 個人開発で使っている開発ツールやエディタ紹介
 ---
 
 # 概要
@@ -13,15 +14,15 @@ summary_generated: 個人開発で使っている開発ツールやエディタ�
 
 - Androidアプリ制作
 - WebAPI及びWEBアプリ制作(Ruby,PHP)
-  ![image_alt](/public/images/development-0001/5151011a-2f4b-0b1e-6e84-1576f644d83b.png)![image_alt](/public/images/development-0001/57b87757-94c4-f8d5-337b-63fe9565a7b3.jpeg)![image_alt](images/development-0001/1388ef62-7dc3-3a01-ab17-c3a1af0f45b8.png)
+  ![image_alt](/images/development-0001/5151011a-2f4b-0b1e-6e84-1576f644d83b.png)![image_alt](/images/development-0001/57b87757-94c4-f8d5-337b-63fe9565a7b3.jpeg)![image_alt](images/development-0001/1388ef62-7dc3-3a01-ab17-c3a1af0f45b8.png)
 
 ## 作業環境
 
 ### ディスプレイ
 
-![image_alt](/public/images/development-0001/872f7dff-049a-3654-7ea9-a952d66ac29d-1024x768.jpeg)
+![image_alt](/images/development-0001/872f7dff-049a-3654-7ea9-a952d66ac29d-1024x768.jpeg)
 
-![image_alt](/public/images/development-0001/29ac423f-e580-7ae7-27db-508a568a6594-1024x768.jpeg)
+![image_alt](/images/development-0001/29ac423f-e580-7ae7-27db-508a568a6594-1024x768.jpeg)
 ディスプレイは3台使っています。 全てディスプレイアームを使用して高さや角度が簡単に調整できるようにしています。 ディスプレイの上にはキングジムのディスプレイボードを設置して小物を置けるように工夫しています。
 
 ### PC
@@ -49,48 +50,48 @@ summary_generated: 個人開発で使っている開発ツールやエディタ�
 ### キーボード
 
 - Logicool G710p メカニカルキーボード
-  ![image_alt](/public/images/development-0001/1bf97b62-365b-5d0f-38eb-9e16d899f1b4-1024x768.jpeg)
+  ![image_alt](/images/development-0001/1bf97b62-365b-5d0f-38eb-9e16d899f1b4-1024x768.jpeg)
 
 ### マウス
 
 - Logicool G700s
-  ![image_alt](/public/images/development-0001/cd2fd4fe-7147-c1f8-83af-1a68d77b900e.jpeg)
+  ![image_alt](/images/development-0001/cd2fd4fe-7147-c1f8-83af-1a68d77b900e.jpeg)
 
 # バージョン管理
 
 ## GitHub
 
-![image_alt](/public/images/development-0001/6f7b8440-feff-346b-17cc-ac7e702100fd.png)
+![image_alt](/images/development-0001/6f7b8440-feff-346b-17cc-ac7e702100fd.png)
 
 ## GitLab
 
-![image_alt](/public/images/development-0001/37d0f89e-4903-ee06-62e9-d76900b08baa.png)
+![image_alt](/images/development-0001/37d0f89e-4903-ee06-62e9-d76900b08baa.png)
 
 定番のGihtubとGitLab。 Githubは公開しても問題のないリポジトリ(古くなってもう使ってないとか)をGitLabから移動して公開しています。 GitLabはプライベートリポジトリが無料かつCIが使えるのでAndroidアプリのコード等を置いています。
 
 ## リモート会議
 
-![image_alt](/public/images/development-0001/8a16df81-beec-377b-b777-fdf181fcc23f.png)
+![image_alt](/images/development-0001/8a16df81-beec-377b-b777-fdf181fcc23f.png)
 Skypeを使っています。
 
 ## チャットツール
 
-![image_alt](/public/images/development-0001/42fffbb6-bf61-83f6-6189-a86fe0778370.png)![image_alt](/public/images/development-0001/8a16df81-beec-377b-b777-fdf181fcc23f.png)
+![image_alt](/images/development-0001/42fffbb6-bf61-83f6-6189-a86fe0778370.png)![image_alt](/images/development-0001/8a16df81-beec-377b-b777-fdf181fcc23f.png)
 主にSlackを使用していますが、会社ではChatworkを使用しているため両方使用しています。
 
 ## エディタ
 
 ### IntelliJ IDEA
 
-![image_alt](/public/images/development-0001/02f5fee2-5919-e4dc-142c-30f068395b9e.jpeg)
+![image_alt](/images/development-0001/02f5fee2-5919-e4dc-142c-30f068395b9e.jpeg)
 Android、Ruby、PHPが一つのIDEで出来て便利なので有償の [Ultimate版](https://www.jetbrains.com/idea/) を使っています。 「コレが無いと開発できない」とまで言われているみたいです。
 
 ### Vidual Studio Code
 
-![image_alt](/public/images/development-0001/d9592da6-35c4-cd22-98a8-1ce300463cf6.png)
+![image_alt](/images/development-0001/d9592da6-35c4-cd22-98a8-1ce300463cf6.png)
 テキストエディタとして使用しています。 昔は秀丸を使っていましたが、Markdownのプレビューなど便利なのでこちらに移行しました。 会社ではメインの開発エディタとして使っている人も居るので、JSを書くぐらいだったらこれだけでもいいのかもしれません。
 
 ### Android Studio
 
-![image_alt](/public/images/development-0001/2a365717-0e24-e6c0-cab6-b1e8cdcdf66f.png)
+![image_alt](/images/development-0001/2a365717-0e24-e6c0-cab6-b1e8cdcdf66f.png)
 IntelliJ IDEAでも出来ますが、とりあえず入れてる感じです。

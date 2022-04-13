@@ -1,12 +1,13 @@
 ---
 title: "WSLの導入手順"
 date: "2019-06-04"
+coverImage: ''
 tags: 
   - Linux
   - Windows
   - インフラ
   - 開発環境
-summary_generated: WSLの導入手順
+ogImage: ''
 ---
 
 # WSLの導入手順
@@ -29,10 +30,10 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 ### GUIの場合
 1. プログラムと機能 → Windowsの機能の有効化または無効化を開きます。
 
-    ![image_alt](/public/images/wsl_setup/wsl_gui_01.jpg)
+    ![image_alt](/images/wsl_setup/wsl_gui_01.jpg)
 1. ダイアログ内の`Windows Subsystem for Linux`の左側のチェックボックスにチェックを付けてOK
 
-    ![image_alt](/public/images/wsl_setup/wsl_gui_02.jpg)
+    ![image_alt](/images/wsl_setup/wsl_gui_02.jpg)
 1. Windowsを再起動します。
 
 ## Linuxディストリビューションをインストールする
@@ -44,20 +45,20 @@ Windows Storeで、WSL用のLinuxが提供されていますので、そちら�
 
    ※ 初めてインストールする際には`入手`ボタンを押すことが必要です。
 
-    ![image_alt](/public/images/wsl_setup/wsl_distro_01.jpg)
+    ![image_alt](/images/wsl_setup/wsl_distro_01.jpg)
 1. `起動`をクリックします。
 
-    ![image_alt](/public/images/wsl_setup/wsl_distro_02.jpg)
+    ![image_alt](/images/wsl_setup/wsl_distro_02.jpg)
 1. ユーザー名とパスワードを入力します。
 
-    ![image_alt](/public/images/wsl_setup/wsl_distro_03.jpg)
+    ![image_alt](/images/wsl_setup/wsl_distro_03.jpg)
 
    これでUbuntu18.04 LTSを使い始めることができます。
 1. 次回以降の起動
 
    スタートメニューにUbuntu18.04 LTSが追加されていますのでそちらから起動します。
 
-    ![image_alt](/public/images/wsl_setup/wsl_distro_04.jpg)
+    ![image_alt](/images/wsl_setup/wsl_distro_04.jpg)
 
 ## おわりに
 WSL (Windows Subsystem for Linux) の導入手順について書きました。
