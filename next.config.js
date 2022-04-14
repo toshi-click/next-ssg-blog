@@ -22,7 +22,10 @@ const config = {
       use: "raw-loader",
     });
 
-
+    config.watchOptions = {
+      poll: 1000,
+      aggregateTimeout: 200,
+    };
 
     return config;
   },
