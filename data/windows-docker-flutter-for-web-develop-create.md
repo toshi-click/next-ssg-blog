@@ -1,8 +1,7 @@
 ---
 title: "WindowsのDockerでFlutter for Web（開発環境構築）"
 date: "2021-03-26"
-coverImage: ''
-ogImage: ''
+coverImage: '/images/cover/pakutaso_cover02.jpg'
 tags: 
   - Docker
   - Windows

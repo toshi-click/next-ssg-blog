@@ -1,8 +1,7 @@
 ---
 title: "React Nativeことはじめ"
 date: "2018-04-13"
-coverImage: ''
-ogImage: ''
+coverImage: '/images/cover/pakutaso_cover09.jpg'
 tags: 
   - Android
   - iOS

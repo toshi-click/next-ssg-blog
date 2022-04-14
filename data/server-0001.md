@@ -1,8 +1,7 @@
 ---
 title: "サーバへのSSHログイン契機でメール通知"
 date: "2017-11-25"
-coverImage: ''
-ogImage: ''
+coverImage: '/images/cover/pakutaso_cover14.jpg'
 tags: 
   - Linux
   - インフラ

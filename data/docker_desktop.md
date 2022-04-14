@@ -1,8 +1,7 @@
 ---
 title: "Docker Desktop導入手順"
 date: "2019-07-08"
-coverImage: ''
-ogImage: ''
+coverImage: '/images/cover/pakutaso_cover04.jpg'
 tags: 
   - Docker
   - Mac

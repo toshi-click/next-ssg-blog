@@ -1,8 +1,7 @@
 ---
 title: "Windows10 + WSL(Ubuntu18.04) + Docker Desktopで開発環境構築"
 date: "2019-07-09"
-coverImage: ''
-ogImage: ''
+coverImage: '/images/cover/pakutaso_cover01.jpg'
 tags: 
   - Docker
   - Linux

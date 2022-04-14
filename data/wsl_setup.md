@@ -1,13 +1,12 @@
 ---
 title: "WSLの導入手順"
 date: "2019-06-04"
-coverImage: ''
+coverImage: '/images/cover/pakutaso_cover03.jpg'
 tags: 
   - Linux
   - Windows
   - インフラ
   - 開発環境
-ogImage: ''
 ---
 
 # WSLの導入手順

@@ -1,8 +1,7 @@
 ---
 title: "個人開発で使っている開発ツールやエディタ紹介"
 date: "2017-08-10"
-coverImage: ''
-ogImage: ''
+coverImage: '/images/cover/pakutaso_cover08.jpg'
 tags:
   - Windows
   - 開発環境
