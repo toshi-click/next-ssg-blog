@@ -32,6 +32,8 @@ jobs:
 
       # アプリのビルド
       - name: build
+        env:
+          NEXT_PUBLIC_GOOGLE_ANALYTICS_ID: ${{ secrets.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID }}
         run: yarn build
 
       # S3にデプロイ
