@@ -1,6 +1,7 @@
 ---
 title: "CentOS 7.3でyum install nodejsが失敗するので回避する"
 date: "2017-08-24"
+update: "2022-05-10"
 coverImage: '/images/cover/pakutaso_cover15.jpg'
 tags: 
   - JavaScript
@@ -9,9 +10,9 @@ tags:
 ---
 
 # はじめに
-2017/08/13頃から**yum -y install nodejs**すると**http-parser**の依存関係でコケるようです。
-**http-parser**がRedHat Baseリポジトリに7.4で追加されたため、EPELから削除され、そのために失敗するようです。
-参考URLの情報では**http-parser**を別にインストールすれば問題ないということなので対応してみました。
+2017/08/13 頃から**yum -y install nodejs**すると**http-parser**の依存関係でコケるようです。
+**http-parser**が Red Hat Base リポジトリに 7.4 で追加されたため、EPEL から削除され、そのために失敗するようです。
+参考 URL の情報では**http-parser**を別にインストールすれば問題ないということなので対応してみました。
 
 # 環境
 - CentOS Linux release 7.3.1611 (Core)
@@ -54,7 +55,7 @@ https://kojipkgs.fedoraproject.org//packages/http-parser/2.7.1/3.el7/x86_64/http
 
 # おわりに
 無事インストールできた。
-CentOS7.4がリリースされたら起きなくなるっぽいんですかね？
+CentOS7.4 がリリースされたら起きなくなるっぽいんですかね？
 
 # 参考
 [https://bugzilla.redhat.com/show_bug.cgi?id=1481008](https://bugzilla.redhat.com/show_bug.cgi?id=1481008)

@@ -1,6 +1,7 @@
 ---
 title: "WindowsのDockerでFlutter for Web（開発環境構築）"
 date: "2021-03-26"
+update: "2022-05-10"
 coverImage: '/images/cover/pakutaso_cover02.jpg'
 tags: 
   - Docker
@@ -9,26 +10,26 @@ tags:
 ---
 
 # 概要
-あんまりWindowsにPATHとか追加設定したく無いという思いがあり Docker Desktop for Windows で開発してみたので環境構築部分について書いておきます。
+あんまり Windows に PATH とか追加設定したく無いという思いがあり Docker Desktop for Windows で開発してみたので環境構築部分について書いておきます。
 
 # 前提
-* Docker Desktop for Windowsを使用するのでWindows10 2004以降
-* Docker Desktop for Windowsをインストール済み。
+* Docker Desktop for Windows を使用するので Windows10 2004 以降
+* Docker Desktop for Windows をインストール済み。
 
 # この記事について
-* Windowsと書きましたがDockerでFlutter for Web環境なのでおそらくMacでも動くと思います。
-* `flutter doctor`でエラーが出ないように色々インストールするのでDocker buildに恐ろしいほど時間がかかります。  
-  build完了したらDocker Hub等にプッシュした方が再利用性が高いです。
+* Windows と書きましたが Docker で Flutter for Web 環境なのでおそらく Mac でも動くはずです。
+* `flutter doctor`でエラーが出ないように色々インストールするので Docker build に恐ろしいほど時間がかかります。  
+  build 完了したら Docker Hub 等にプッシュしたほうが再利用性が高いです。
 * 忙しい人のために[必要ファイルをリポジトリに上げてあります](https://github.com/toshi-click/flutter_web_develop.git)
 
 # 急いでる人がやること
-1. リポジトリをCloneして移動
+1. リポジトリを Clone して移動
 1. `docker-compose build`
 1. `docker-compose up -d`
-1. コンソールから下記コマンドでコンテナ内に入ります。 (VsCodeのremote-containerでworkspaceコンテナを開いたりしてもいいです)   
+1. コンソールから下記コマンドでコンテナ内に入ります。 (VsCode の remote-container で workspace コンテナを開いたりしてもいいです)   
    ```docker exec -it flutter bash```
 1. `cd ${APP_CODE_PATH_CONTAINER} ; flutter create .`を実行します。
-1. `flutter run -d web-server --web-port=${WEB_SERVER_PORT} --web-hostname 0.0.0.0`を実行しWebサーバーを起動します。
+1. `flutter run -d web-server --web-port=${WEB_SERVER_PORT} --web-hostname 0.0.0.0`を実行し Web サーバーを起動します。
 1. ブラウザで`http://localhost:8888`を開きながらコーディング！
 
 # Dockerファイル
@@ -157,5 +158,5 @@ WEB_SERVER_PORT=8888
 ```
 
 # 感想
-WindowsにPATH追加設定したりするのが嫌でない人は素直にFlutter SDKとAndroid Studioをインストールして開発したほうが速くて快適かもしれません。
-複数端末を利用していたりしてどうしてもDockerでやりたいという想いがないのであればこれはいらないかもしれないです。
+Windows に PATH 追加設定したりするのが嫌でない人は素直に Flutter SDK と Android Studio をインストールして開発したほうが速くて快適です。
+複数端末を利用していたりしてどうしても Docker でやりたいという想いがないのであればこれはいらないです。

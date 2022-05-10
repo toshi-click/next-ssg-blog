@@ -1,6 +1,7 @@
 ---
 title: "サーバへのSSHログイン契機でメール通知"
 date: "2017-11-25"
+update: "2022-05-10"
 coverImage: '/images/cover/pakutaso_cover14.jpg'
 tags: 
   - Linux
@@ -8,17 +9,17 @@ tags:
   - セキュリティ
 ---
 # 目的
-複数のIPからSSHアクセスされるサーバーで信頼していないIPから接続されたら通知する。
+複数の IP から SSH アクセスされるサーバーで信頼していない IP から接続されたら通知する。
 
 ## 参考
-[SSHでログインしたらメールで通知する](https://bacchi.me/linux/ssh-login-alert/)
+[SSHログインしたらメールで通知する](https://bacchi.me/linux/ssh-login-alert/)
 
 # バージョン情報
 - CentOS Linux release 7.3.1611 (Core)
 
 ## 設定内容
-参考にした内容ではシェルを作成していましたが、不要なので/etc/ssh/sshrcに纏めました。
-また、1IPのみの信頼となっていたので複数IPを評価するようにしました。
+参考にした内容ではシェルを作成していましたが、不要なので/etc/ssh/sshrc に纏めました。
+また、1IP のみの信頼となっていたので複数 IP を評価するようにしました。
 
 ```
 SOURCE_IP=${SSH_CLIENT%% *}
