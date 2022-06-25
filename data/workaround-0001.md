@@ -2,7 +2,7 @@
 title: "CentOS 7.3でyum install nodejsが失敗するので回避する"
 date: "2017-08-24"
 update: "2022-05-10"
-coverImage: '/images/cover/pakutaso_cover15.jpg'
+coverImage: '/images/header/taifuu_nangoku.png'
 tags: 
   - JavaScript
   - Linux

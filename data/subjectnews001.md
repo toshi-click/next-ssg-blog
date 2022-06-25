@@ -1,7 +1,7 @@
 ---
 title: "#it業界クソ現場オブザイヤー2018厳選集"
 date: "2018-11-20"
-coverImage: '/images/cover/pakutaso_cover07.jpg'
+coverImage: '/images/header/internet_enjou_sns_woman.png'
 tags: 
   - Twitter
   - ツイッター

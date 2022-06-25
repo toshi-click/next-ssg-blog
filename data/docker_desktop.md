@@ -2,7 +2,7 @@
 title: "Docker Desktop導入手順"
 date: "2019-07-08"
 update: "2022-05-10"
-coverImage: '/images/cover/pakutaso_cover04.jpg'
+coverImage: '/images/header/magnifier_animal_inu.png'
 tags: 
   - Docker
   - Mac

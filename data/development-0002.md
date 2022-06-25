@@ -2,7 +2,7 @@
 title: "React Nativeことはじめ"
 date: "2018-04-13"
 update: "2022-05-10"
-coverImage: '/images/cover/pakutaso_cover09.jpg'
+coverImage: '/images/header/computer_screen_programming.png'
 tags: 
   - Android
   - iOS

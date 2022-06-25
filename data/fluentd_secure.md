@@ -2,7 +2,7 @@
 title: "Fluentd間でログを自己証明書で暗号化して送る"
 date: "2019-06-26"
 update: "2022-05-10"
-coverImage: '/images/cover/pakutaso_cover06.jpg'
+coverImage: '/images/header/magnifier_animal_neko.png'
 tags: 
   - Fluentd
   - インフラ
