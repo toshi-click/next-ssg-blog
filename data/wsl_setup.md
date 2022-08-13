@@ -2,7 +2,7 @@
 title: "WSLの導入手順"
 date: "2019-06-04"
 update: "2022-05-10"
-coverImage: '/images/header/no_image_square.png'
+coverImage: '/images/header/no_image_square.jpg'
 tags: 
   - Linux
   - Windows
