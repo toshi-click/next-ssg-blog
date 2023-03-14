@@ -62,7 +62,7 @@
     "textlint-rule-preset-ja-spacing": "^2.2.0",
     "textlint-rule-spellcheck-tech-word": "^5.0.0",
     "typescript": "^4.6.3",
-    "webpack": "^5.71.0"
+    "webpack": "^5.76.0"
   },
   "browserslist": [
     "last 2 version",
